@@ -34,6 +34,8 @@ We're tracking the progress of this move as part of
 listing below only the crates that currently live here. You can find all other
 rust-vmm crates in the root organization [rust-vmm](https://github.com/rust-vmm).*
 
+- [acpi_tables](acpi_tables): Infrastructure for creating dynamic (via AML) and
+  static ACPI tables.
 - [vmm-sys-util](vmm-sys-util): Helpers and utilities used by multiple rust-vmm
   components.
 - [vm-memory](vm-memory): Virtual machine's guest memory crate.
