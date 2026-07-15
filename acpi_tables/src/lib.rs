@@ -79,7 +79,7 @@ pub trait Aml {
     fn to_aml_bytes(&self, sink: &mut dyn AmlSink);
 }
 
-/// Simplify the library by treating Vec<u8> as a valid AmlSink.
+/// Simplify the library by treating `Vec<u8>` as a valid AmlSink.
 impl AmlSink for alloc::vec::Vec<u8> {
     fn byte(&mut self, byte: u8) {
         self.push(byte);
