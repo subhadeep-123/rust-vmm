@@ -3,6 +3,7 @@ repository = "https://github.com/rust-vmm/rust-vmm"
 
 [workspace]
 members = [
+  "acpi_tables",
   "vm-memory",
   "vmm-sys-util",
 ]
