@@ -4,6 +4,9 @@
 
 ### Added
 ### Changed
+
+- Crate is now using edition 2021.
+
 ### Fixed
 ### Removed
 ### Deprecated
