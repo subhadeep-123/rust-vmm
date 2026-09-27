@@ -1,7 +1,6 @@
 [advisories]
 ignore = [
-    # bincode is unmaintained. Now that versionize is gone, the only thing
-    # pulling it into the workspace is the vm-superio-ser dev-dependency
-    # used by its tests, so it is not part of anything we publish.
+    # bincode is unmaintained. It's a dev-dependency of vm-superio-ser,
+    # used only by its tests, so it is not part of anything we publish.
     "RUSTSEC-2025-0141",
 ]
